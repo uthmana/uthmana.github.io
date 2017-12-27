@@ -1,0 +1,266 @@
+body{
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	line-height: 1.8;
+}
+
+
+
+.navbar .navbar-nav{
+	margin:0 auto;
+	
+}
+.navbar{ opacity:0.5;
+	border:none;
+}
+.bg-1{background:url('images/uthman.jpg') no-repeat fixed ;  
+	background-size:cover;
+	width:100vw;
+	height:100vh;
+	
+}
+h1{font-size:2em;}
+h2{font-weight:bold;
+	margin:3%;
+	font-size:3em;
+color:black;}
+.jumbotron{
+	//margin:200px 100px 150px 100px;
+	margin-top:40vh;
+	margin-left:10vw;
+	margin-right:10vw;
+	margin-bottom:0vh;
+	padding:0px;
+	color:white;
+	background-color:transparent !important;
+}
+.chevron-down{font-size:1.4em;
+	color:#ffffff;
+	padding:16vh;
+}
+.bg-2{
+	width:100vw;
+	padding:0px; 
+	background-color:#bababa;
+}
+
+
+
+#profile{
+	padding-top:0%;
+	padding-left:8%;
+	padding-right:10%;
+	
+}
+
+#skills{
+	padding-top:0%;
+	padding-left:8%;
+	padding-right:10%;
+}
+!-- service page starts here -->
+
+.bg-3{
+	width:100vw;
+	height:auto;
+	background-color:#ffff;
+	margin-bottom:0px;
+}
+.serviceimg{
+	width:250px;
+	border-radius:50%;
+}
+/*portfolio style starts here*/
+.bg-4{
+	width:100vw;
+	height:auto;
+	padding-top:0%;
+	padding-left:5%;
+	padding-right:7%;
+	background-color:#bababa;
+	
+}
+/* css image effect starts from here*/
+.image-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+	height:300px;
+    transition: .5s
+}
+
+.text-box {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 52, 68, 0.5);
+    transition: 0.5s
+}
+
+.text-box h3 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    color: #FFF;
+    font-family: arial;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.text-box p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 100%;
+    color: #FFF;
+    font-family: arial;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+.image-box:hover .text-box {
+    left: 0%;
+}
+
+.image-box:hover img {
+    transform: scale(1.2)
+}
+#btn-showMore{
+	margin-bottom:2%;
+}
+#ShowMore{
+	display:none;
+	padding-bottom:2%;
+}
+.project-image{
+	width:100%;
+	
+	
+}
+
+/* contact page starts here*/
+.bg-5{
+	
+	color:#fff;
+	width:100vw;
+	height:auto;
+	padding-top:0%;
+	padding-left:5%;
+	padding-right:5%;
+	background-color:#232528;
+}
+#cont-row{
+	margin-top:50px;
+	
+}
+.Eicon{
+	margin-bottom:10px;
+}
+#cont-hearder{
+	background-color:gray;
+	display:inline;
+	border:1px solid silver;
+	margin-top:10px;
+	padding:5px;
+	width:40px;
+	border-radius:3px;
+	color:#fff;
+}
+#cont-info{
+	font-style:italic;
+	font-family:"Times New Roman", Georgia, Serif;
+}
+#n {
+	width:80%;
+	height:50px;
+	margin-bottom:20px;
+	margin-top:30px;
+	background-color:transparent !important;
+	border-radius:5px;
+	padding:10px;
+	
+}
+#e {
+	width:80%;
+	height:50px;
+	margin-bottom:20px;
+	margin-top:30px;
+	background-color:transparent !important;
+	border-radius:5px;
+	padding:10px;
+	
+}
+textarea{
+	width:80%;
+	height:140px;
+	background-color:transparent !important;
+	border-radius:5px;
+	margin-top:30px;
+	padding:10px;
+	border:2px solid silver;
+	
+}
+.submitId{
+	width:120px;
+	height:40px;
+	background-color:transparent !important;
+	border-radius:5px;
+	margin-top:30px;
+	padding:5px;
+	border:2px solid silver;
+}
+#socialmediaIcons{
+	width:236px;
+	
+}
+#socialMediafooter1 li{
+	float:right;
+	
+	
+}
+.socialMediafooter{
+	list-style-type: none;
+	margin-top:50px;
+	margin-left:auto;
+	margin-left:auto;
+}           
+.socialMediafooter li{
+	float:left;
+	
+	
+}
+.socialMediafooter li a{
+	
+	text-align: center;
+	text-decoration: none;
+	margin-right:10px;
+	color:gray;
+	width:40px;
+	height:40px;
+	border:2px solid silver;
+	font-size:12px;
+	border-radius:50%;
+	padding:5px;
+} 
+.socialMediafooter li a:hover{background-color:white;}
+
+footer{
+	
+	font-family:"Times New Roman", Georgia, Serif;
+	margin-top:30px;
+	line-height: 0.5;
+	font-size:12px;
+}
